@@ -5,11 +5,11 @@
 Ce script Python est conçu pour analyser des fichiers de logs de serveur et extraire des informations spécifiques sur les requêtes basées sur des plages horaires définies. Il est particulièrement utile pour filtrer et obtenir des informations sur les adresses IP impliquées dans les requêtes, ainsi que pour obtenir des détails supplémentaires tels que le reverse DNS et les informations de géolocalisation.
 
 ### Fonctionnalités
-**Filtrage par horodatage** : Le script lit un fichier de log et extrait les lignes dont les horodatages se situent entre deux moments spécifiés.
-**Traitement des adresses IPv4 et IPv6** : Il gère à la fois les adresses IPv4 et IPv6, en retirant le préfixe ::ffff: des adresses IPv4 mappées en IPv6 si nécessaire.
-**Recherche de Reverse DNS** : Pour chaque adresse IP, le script effectue une recherche de reverse DNS.
-**Géolocalisation IP** : Il utilise une base de données GeoIP pour déterminer la localisation géographique de chaque adresse IP.
-**Éviter les doublons** : Le script ne traite pas plusieurs fois la même adresse IP si celle-ci apparaît plusieurs fois dans la plage horaire spécifiée.
+- **Filtrage par horodatage** : Le script lit un fichier de log et extrait les lignes dont les horodatages se situent entre deux moments spécifiés.
+- **Traitement des adresses IPv4 et IPv6** : Il gère à la fois les adresses IPv4 et IPv6, en retirant le préfixe ::ffff: des adresses IPv4 mappées en IPv6 si nécessaire.
+- **Recherche de Reverse DNS** : Pour chaque adresse IP, le script effectue une recherche de reverse DNS.
+- **Géolocalisation IP** : Il utilise une base de données GeoIP pour déterminer la localisation géographique de chaque adresse IP.
+- **Éviter les doublons** : Le script ne traite pas plusieurs fois la même adresse IP si celle-ci apparaît plusieurs fois dans la plage horaire spécifiée.
 
 ### Prérequis
 - **Python 3**
