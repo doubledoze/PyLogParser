@@ -20,6 +20,8 @@ Ce script Python est conçu pour analyser des fichiers de logs de serveur et ext
 Pour exécuter le script, utilisez la commande suivante dans le terminal :
 `python3 parser.py "DD/MMM/YYYY:HH:MM:SS" "DD/MMM/YYYY:HH:MM:SS" logfile.txt`
 
+Ne pas oublier d'importer le fichier `GeoLite2-City.mmdb` au même endroit que le script, disponible à cette adresse : https://github.com/P3TERX/GeoLite.mmdb
+
 Remplacez **DD/MMM/YYYY:HH:MM:SS** par les horodatages de début et de fin, et **logfile.txt** par le chemin du fichier de log à analyser.
 
 ### Exemple d'utilisation
