@@ -27,6 +27,13 @@ Remplacez **DD/MMM/YYYY:HH:MM:SS** par les horodatages de début et de fin, et *
 
 Cette commande analysera le fichier ns1.log et affichera des informations sur les requêtes effectuées entre 10:13:30 et 10:15:00 le 13 novembre 2023.
 
+Exemple de résultat : 
+```
+IP: fe80::1712:47a9:127:9f7, Timestamp: 13/Nov/2023:10:13:40, Reverse DNS: tor-exit-56.for-privacy.net, GeoIP: Brandenburg, Germany
+IP: 192.168.0.2, Timestamp: 13/Nov/2023:10:13:41, Reverse DNS: Reverse DNS not found, GeoIP: Frankfurt am Main, Germany
+IP: 10.10.0.67, Timestamp: 13/Nov/2023:10:13:55, Reverse DNS: tor-exit-52.for-privacy.net, GeoIP: None, Russia
+```
+
 ### Structure du Code
 Le script est structuré comme suit :
 
